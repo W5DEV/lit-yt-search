@@ -12,13 +12,11 @@ All components are located within the `src/components` directory. There are two 
 
 ## Setup and Installation
 
-To run this code locally, you will need an API Key for the YouTube Data API V3, which can be obtained by following the instructions here: https://developers.google.com/youtube/v3/getting-started
-
-Once you obtain an API Key, copy the contents of the `example.env` to a new `.env` file and paste your API key in place of the placeholder.
-
-Once you do this, you should be able to install dependencies and run the code:
+To run this code locally, you will need to run the following commands:
 
 ```
+nvm use
+
 npm install
 
 npm run start

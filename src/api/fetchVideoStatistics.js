@@ -1,7 +1,7 @@
 const fetchVideoStatistics = async (id) => {
   try {
     const response = await fetch(
-      `https://www.googleapis.com/youtube/v3/videos?part=statistics&id=${id}&key=AIzaSyBe-Mi5zI65oM0HnU1T-Exx0Ap2698NzrI`,
+      `https://www.googleapis.com/youtube/v3/videos?part=statistics&id=${id}&key=AIzaSyAcN0-U5thT6x1nD-SixW9gG0movoBG7S0`,
       {
         method: "GET",
       }

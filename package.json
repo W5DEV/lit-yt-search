@@ -1,0 +1,19 @@
+{
+  "name": "lit-yt-search",
+  "description": "A simple search utilizing the YouTube Data API v3",
+  "license": "MIT",
+  "author": "w5dev",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "web-test-runner --coverage",
+    "build": "rimraf dist && rollup -c rollup.config.js && npm run analyze -- --exclude dist",
+    "start:build": "web-dev-server --root-dir dist --app-index index.html --open",
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "lit": "^3.1.2"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.28"
+  }
+}
